@@ -8,9 +8,53 @@
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    background: white;
 }
 h1{
     font-family: 'Fredericka the Great', cursive;
     color: #1f5b25;
     text-align: center;
+}
+.kave:hover{
+    box-shadow: 0 0 5px #1f5b25;
+    cursor:pointer;
+}
+body{
+    background:#fbefdb
+}
+nav{
+    background: #1f5b25;
+    padding:20px;
+    z-index: 1;
+    position: fixed;
+
+}
+nav a{
+    color:white;
+    margin: 15px;
+    
+    
+}
+nav a:hover{
+    color:white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 1.5em;
+}
+nav img{
+    width:40px;
+    fill:white;
+}
+.banner{
+    height:400px;
+    background-image: url("kepek/banner2.jpg");
+    background-position:center center;
+    background-size:cover; 
+}
+#napiajanlat{
+    position:absolute;
+    width: 30px;
+    right: 20px;
+    top:20px;
 }
